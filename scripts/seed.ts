@@ -32,8 +32,8 @@ async function seed() {
 
     const User = mongoose.models.User || mongoose.model('User', userSchema);
 
-    const email = 'demo@avatarai.vn';
-    const password = 'demo123';
+    const email = 'demo_vip@avatarai.vn';
+    const password = '123123';
     
     // Check if demo user exists
     const existing = await User.findOne({ email });
