@@ -10,8 +10,8 @@ import { Sparkles, Mail, Lock } from 'lucide-react';
 
 export default function LoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState('demo@avatarai.vn');
-  const [password, setPassword] = useState('demo123');
+  const [email, setEmail] = useState('demo_vip@avatarai.vn');
+  const [password, setPassword] = useState('123123');
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
