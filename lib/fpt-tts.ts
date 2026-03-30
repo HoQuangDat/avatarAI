@@ -13,7 +13,7 @@ export async function textToSpeech(text: string): Promise<Buffer> {
       {
         headers: {
           'api-key': apiKey,
-          'voice': 'thuminh',
+          'voice': 'myan',
           'speed': '0',
           'format': 'mp3',
         }
